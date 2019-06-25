@@ -59,6 +59,8 @@
     right: 30px;
     bottom: 100px; 
     z-index: 1003;
+    animation: swing 0.5s infinite;
+    -webkit-animation: swing 0.5s infinite;
     &:before {
         content: '';
         display: block;
