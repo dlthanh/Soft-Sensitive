@@ -6,22 +6,502 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Soft Sensitive | Trang chủ</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <!-- <script src="js/circletype.min.js"></script> -->
     <script src="js/scripts.js"></script>
 </head>
 <body>
     <div class="sensi">
+        <div class="phone rounded-circle">
+            <img src="images/phone.png" alt="">
+            <span>0123456789</span>
+        </div>
         <header class="sensi-header container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light container">
+                <a class="navbar-brand col-md-4" href="/">
+                    <img src="images/logo.png" alt="">
+                </a>
+                    <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#sensiNavigator" aria-controls="sensiNavigator" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse col-md-8" id="sensiNavigator">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link sensi-link" href="#">Sản phẩm <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cẩm nang</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Đặt mua</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Liên hệ</a>
+                            </li>
+                            <li class="nav-item nav-social">
+                                <a class="nav-link" href="#">
+                                    <img src="images/shopee.png" alt="" style="margin-top: -3px;">
+                                </a>
+                            </li>
+                            <li class="nav-item nav-social">
+                                <a class="nav-link" href="#">
+                                    <img src="images/tiki.png" alt="" style="margin-top: -10px;">
+                                </a>
+                            </li>
+                            <li class="nav-item nav-social">
+                                <a class="nav-link" href="#">
+                                    <img src="images/sendo.png" alt="" style="margin-top: 6px;">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
+        </header>
+
+        <div class="sensi-banner container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="sensi-logo col-md-2">
+                    <div class="sensi-banner-main offset-md-5 col-md-7">
+                        <h1 class="sensi-banner-title text-center">
+                            Rất ít phụ nữ hiểu đủ và đúng về
+                            <span>Chăm Sóc Vùng Kín</span>
+                        </h1>
 
+                        <ul class="sensi-banner-list text-center row">
+                            <li class="sensi-banner-item col-md-6">
+                                <span class="sensi-banner-item-count">3%</span>
+                                <span class="sensi-banner-item-text">Trong 1,803 phụ nữ có thể <br /> trả lời hết các câu hỏi liên <br /> quan đến vùng kín</span>
+                            </li>
+                            <li class="sensi-banner-item col-md-6">
+                                <span class="sensi-banner-item-count">70%</span>
+                                <span class="sensi-banner-item-text">Phụ nữ Việt Nam có trình độ cao <br /> bị nhiễm bệnh phụ khoa</span>
+                            </li>
+                            <li class="sensi-banner-item col-md-6">
+                                <span class="sensi-banner-item-count">94%</span>
+                                <span class="sensi-banner-item-text">Phụ nữ Việt Nam mơ hồ về <br /> kiến thức chăn sóc vùng kín</span>
+                            </li>
+                            <li class="sensi-banner-item col-md-6">
+                                <span class="sensi-banner-item-count">90%</span>
+                                <span class="sensi-banner-item-text">Trong số 70,000 phụ nữ bị <br /> viêm nhiễm vùng kín</span>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="sensi-btn mx-auto">Tôi muốn được tư vấn</a>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+
+        <div class="sensi-firstSection container-fluid">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="sensi-firstSection-left col-md-6">
+                        <img src="images/section-1.png" alt="">
+                    </div>
+
+                    <div class="sensi-firstSection-right col-md-6">
+                        <h2 class="sensi-firstSection-title"><span class="number">06</span> Sai lầm cơ bản chị em hay mắc phải khi <span>Chăm sóc vùng nhạy cảm</span></h2>
+
+                        <ul class="sensi-firstSection-list">
+                            <li class="sensi-firstSection-item wow fadeInLeft" data-wow-duration="0.5s">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2 col-3">
+                                        <img src="images/ban.png" alt="">
+                                    </div>
+
+                                    <div class="col-md-10 col-9">
+                                        <p>Vệ sinh bằng <span>chất tẩy rửa mạnh</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="sensi-firstSection-item wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2 col-3">
+                                        <img src="images/ban.png" alt="">
+                                    </div>
+
+                                    <div class="col-md-10 col-9">
+                                        <p>Hoàn toàn <span>không dùng</span> chất tẩy rửa</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="sensi-firstSection-item wow fadeInLeft" data-wow-duration="0.5s">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2 col-3">
+                                        <img src="images/ban.png" alt="">
+                                    </div>
+
+                                    <div class="col-md-10 col-9">
+                                        <p>Thay đổi loại chất tẩy rửa <span>thường xuyên</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="sensi-firstSection-item wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2 col-3">
+                                        <img src="images/ban.png" alt="">
+                                    </div>
+
+                                    <div class="col-md-10 col-9">
+                                        <p>Chỉ chú trọng vệ sinh khi có dấu hiệu <span>viêm nhiễm</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="sensi-firstSection-item wow fadeInLeft" data-wow-duration="0.5s">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2 col-3">
+                                        <img src="images/ban.png" alt="">
+                                    </div>
+
+                                    <div class="col-md-10 col-9">
+                                        <p>Để vùng kín <span>quá...kín</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="sensi-firstSection-item wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2 col-3">
+                                        <img src="images/ban.png" alt="">
+                                    </div>
+
+                                    <div class="col-md-10 col-9">
+                                        <p>Chỉ làm sạch mà không nuôi dưỡng, tái tạo</p>
+                                    </div>
+                                </div>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sensi-secondSection container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <img src="images/section-2-border.png" alt="" width="100%">
+
+                        <p class="text-center">Vùng <span>"ngã ba"</span> luôn ẩm ướt, cùng cấu trúc <span>"mở"</span> nên trở thành nơi lưu trú lý tưởng cho các loại vi khuẩn. <br />
+                            Các loại vi khuẩn và nấm tại đây có thể sinh sôi lên 4,096 lần sau mỗi 4 tiếng. <br />
+                            Vùng tam giác bị tấn công không chỉ khiến <span>chị em khó ở, thiếu tự tin</span>, mà còn có thể dẫn tới <br />
+                            các bệnh lý nghiêm trọng như <span>vô sinh hoặc ung thư cổ tử cung.</span></p>
+
+                        <p class="quote text-center">Không chỉ là sức khoẻ sinh sản mà còn là hạnh phúc cả đời người, <br /> đừng để "cô bé" gào thét rồi bạn mới để tâm!</p>
+
+                        <a href="#" class="sensi-btn mx-auto">Nhận tư vấn từ chuyên gia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sensi-thirdSection container-fluid">
+            <div class="container">
+                <h2 class="sensi-thirdSection-title text-center wow fadeIn" data-wow-duration="1s">
+                    07 Quy tắc vàng để vùng kín luôn khỏe đẹp
+                    <span>Vùng nhạy cảm nên cần được chăm sóc đặc biệt</span>
+                </h2>
+
+                <div class="row">
+                    <ul class="sensi-thirdSection-list col-md-7">
+                        <li class="sensi-thirdSection-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <img src="images/check.png" alt="">
+                            <p>Bảo vệ độ cân bằng pH</p>
+                        </li>
+                        <li class="sensi-thirdSection-item wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+                            <img src="images/check.png" alt="">
+                            <p>Giữ vùng kín khô thoáng</p>
+                        </li>
+                        <li class="sensi-thirdSection-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <img src="images/check.png" alt="">
+                            <p>Giữ vệ sinh đúng cách</p>
+                        </li>
+                        <li class="sensi-thirdSection-item wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+                            <img src="images/check.png" alt="">
+                            <p>Thăm khám định kỳ</p>
+                        </li>
+                        <li class="sensi-thirdSection-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <img src="images/check.png" alt="">
+                            <p>Không tuỳ tiện thụt rửa âm đạo</p>
+                        </li>
+                        <li class="sensi-thirdSection-item wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+                            <img src="images/check.png" alt="">
+                            <p>Sử dụng đúng loại <br /> dung dịch vệ sinh phụ nữ</p>
+                        </li>
+                        <li class="sensi-thirdSection-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                            <img src="images/check.png" alt="">
+                            <p>Chế độ ăn uống lành mạnh</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="sensi-fourthSection container-fluid text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="sensi-fourthSection-title">Bạn có thể không tắm, những hãy sử dụng dung dịch vệ sinh 02 lần/ngày</h2>
+
+                        <p>Đừng mạo hiểm trao <span>"bảo bối thanh xuân"</span> của mình cho những sản phẩm có <span>tác dụng quá nhanh.</span> <br /> 
+                            Chăm sóc <span>"cô bé"</span> cũng như vun vén cho hạnh phúc của chính mình - cần một hành trình bền bỉ. <br /> 
+                            Bạn cần một sản phẩm <span>thấu hiểu và thân thiện</span> với vùng nhạy cảm để có thể sử dụng đều đặn <span>02 lần/ngày.</span> <br /> 
+                            Do đó, nên lưu tâm đến các thành phần ghi trên sản phẩm: lựa chọn sản phẩm có tính <span>sát khuẩn nhẹ nhàng,</span> mùi hương dễ chịu <span>(thành phần gần với tự nhiên),</span> <br /> 
+                            có thể sử dụng cả khi <span>mang thai và trong ngày đèn đỏ,</span> có khả năng tái tạo, nuôi dưỡng tế bào. <br />
+                            Bên cạnh đó, nguồn gốc và các chứng nhận uy tín cũng rất quan trọng.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sensi-fifthSection container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/section-5.png" alt="">
+                    </div>
+
+                    <div class="sensi-fifthSection-right col-md-7">
+                        <h1 class="sensi-fifthSection-title"></h1>
+
+                        <span class="sensi-fifthSection-description">Sản phẩm được hàng triệu phụ nữ Ý tin dùng.</span>
+
+                        <ul class="sensi-fifthSection-list">
+                            <li class="sensi-fifthSection-item">
+                                <img src="images/section-5-li-1.png" alt="">
+                                <p>Cân bằng pH, ổn định hệ kháng khuẩn</p>
+                            </li>
+                            <li class="sensi-fifthSection-item">
+                                <img src="images/section-5-li-2.png" alt="">
+                                <p>Thành phần thảo dược</p>
+                            </li>
+                            <li class="sensi-fifthSection-item">
+                                <img src="images/section-5-li-3.png" alt="">
+                                <p>Bảo vệ toàn diện 24h</p>
+                            </li>
+                            <li class="sensi-fifthSection-item">
+                                <img src="images/section-5-li-4.png" alt="">
+                                <p>Thân thiện cả với phụ nữ mang thai</p>
+                            </li>
+                            <li class="sensi-fifthSection-item">
+                                <img src="images/section-5-li-5.png" alt="">
+                                <p>Có khả năng nuôi dưỡng, tái tạo, làm hồng vùng kín</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sensi-sixthSection container-fluid">
+            <div class="container">
+                <ul class="sensi-sixthSection-list row text-center align-items-center">
+                    <li class="sensi-sixthSection-item col-md-4">
+                        <img src="images/logo1.png" alt="">
+                    </li>
+                    <li class="sensi-sixthSection-item col-md-4">
+                        <img src="images/logo2.png" alt="">
+                    </li>
+                    <li class="sensi-sixthSection-item col-md-4">
+                        <img src="images/logo3.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sensi-seventhSection container-fluid">
+            <div class="sensi-seventhSection-wrapper">
+                <div class="container">
+                    <div class="sensi-seventhSection-title" id="radius">
+                        <img src="images/section-7-title.png" alt="" width="100%">
+                    </div>
+
+                    <img src="images/section-7-img.png" alt="" width="100%">
+                </div>
+
+                <div class="sensi-seventhSection-main">
+                    <img src="images/section-7-frame.png" alt="" class="frame">
+
+                    <div class="item item-1">
+                        <img src="images/item-1.png" alt="">
+                    </div>
+
+                    <div class="item-text">
+                        <span>Acid Lactic:</span>
+
+                        <p>Tạo độ pH cho âm đạo, tẩy tế bào chết nhẹ nhàng, cung cấp AHA tự nhiên để nuôi dưỡng tái tạo tế bào và ức chế sự phát triển của vi khuẩn gây bệnh. Đặc biệt có tác dụng loại bỏ khuẩn Candida – tác nhân chính gây ra nấm âm đạo và các vấn đề về viêm nhiễm vùng kín.</p>
+                    </div>
+
+                    <div class="item item-2">
+                        <img src="images/item-2.png" alt="">
+                    </div>
+
+                    <div class="item-text">
+                        <span>Thymus vulgaris (Cỏ xạ hương):</span>
+
+                        <p>Có tác dụng kháng viêm tốt, phòng ngừa các bệnh viêm nhiễm, điều hoà kinh nguyệt và làm liền sẹo.</p>
+                    </div>
+
+                    <div class="item item-3">
+                        <img src="images/item-3.png" alt="">
+                    </div>
+
+                    <div class="item-text">
+                        <span>Hamamelis virginiana (Cây phỉ):</span>
+
+                        <p>Giúp cải thiện làn da, tránh bị viêm nhiễm.</p>
+                    </div>
+
+                    <div class="item item-4">
+                        <img src="images/item-4.png" alt="">
+                    </div>
+
+                    <div class="item-text">
+                        <span>Malva sylvestris (Cây cẩm quỳ):</span>
+
+                        <p>Có đặc tính làm dịu chứng viêm và làm mềm, rất tốt cho những vùng da nhạy cảm.</p>
+                    </div>
+
+                    <div class="item item-5">
+                        <img src="images/item-5.png" alt="">
+                    </div>
+
+                    <div class="item-text">
+                        <span>Cocamidopropyl Betaine:</span>
+
+                        <p>Được chỉ định cho việc điều trị chàm, bệnh vảy nến, rosacea, viêm da tiếp xúc và các bệnh chứng khác. Phù hợp cho làn da trẻ em.</p>
+                    </div>
+
+                    <div class="item item-6">
+                        <img src="images/item-6.png" alt="">
+                    </div>
+
+                    <div class="item-text">
+                        <span>Ethylhexylglycerin:</span>
+
+                        <p>Ức chế sự phát triển của các vi khuẩn gây mùi</p>
+                    </div>
+
+                    <div class="item item-7">
+                        <img src="images/item-7.png" alt="">
+                    </div>
+
+                    <div class="item-text">
+                        <span>Glycerin:</span>
+
+                        <p>Làm da mềm mịn. Hỗ trợ làm sạch, tránh các thương tổn và bảo vệ da không bị nhiễm trùng.</p>
+                    </div>
+
+                    <div class="item item-8">
+                        <img src="images/item-8.png" alt="">
+                    </div>
+
+                    <div class="item-text">
+                        <span>Calendula officinalis (Cúc kim tiền):</span>
+
+                        <p>Rất lành tính, giúp làm dịu và mềm da, ngăn ngừa viêm, nấm ngoài da.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sensi-slider container-fluid swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide sensi-slider-item">
+                    <img src="images/slide-1.jpg" alt="">
+
+                    <div class="sensi-slider-title">
+                        Soft & Sensitive - Italia (Purple)
+                    </div>
+
+                    <div class="sensi-slider-text text-center">Chiết xuất hoa Cẩm Quỳ  ngừa viêm, cân bằng ẩm</div>
+
+                    <div class="sensi-slider-order">
+                        <span>Giá: 150,000đ</span>
+                        <a href="#" class="sensi-btn mx-auto">Đặt hàng ngay</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide sensi-slider-item">
+                    <img src="images/slide-1.jpg" alt="">
+
+                    <div class="sensi-slider-title">
+                        Soft & Sensitive - Italia (Purple)
+                    </div>
+
+                    <div class="sensi-slider-text text-center">Chiết xuất hoa Cẩm Quỳ  ngừa viêm, cân bằng ẩm</div>
+
+                    <div class="sensi-slider-order">
+                        <span>Giá: 150,000đ</span>
+                        <a href="#" class="sensi-btn mx-auto">Đặt hàng ngay</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="sensi-guide container-fluid">
+            <div class="container">
+                <h2 class="sensi-guide-title text-center">Hướng dẫn sử dụng</h2>
+
+                <div class="row">
+                    <div class="sensi-guide-description col-md-8 offset-md-2 text-center">
+                        Làm ẩm rồi lấy lượng một lượng dung dịch đủ dùng, tạo bọt rồi thoa nhẹ nhàng. Sau đó rửa lại bằng nước. <br /> Sử dụng tối thiểu 2 lần/ngày vào mỗi sáng và tối hoặc nhiều lần trong ngày, tùy nhu cầu
+                    </div>
+                </div>
+
+                <div class="sensi-contact row">
+                    <div class="col-md-3">
+                        <img src="images/contact.png" alt="" style="width: 100%">
+                    </div>
+
+                    <div class="col-md-9" style="background: url('images/contact-bg.png') no-repeat center; background-size: 100% 100%;">
+                        <div class="row align-items-center" style="height: 100%; padding-top: 10px;">
+                            <div class="col-md-5">
+                                <div class="form-group d-flex">
+                                    <label for="" class="col-form-label"><span>*</span> Tên của nàng là</label>
+                                    <input type="text" class="form-control rounded-pill w60">
+                                </div>
+        
+                                <div class="form-group d-flex">
+                                    <label for="" class="col-form-label"><span>*</span> Số điện thoại</label>
+                                    <input type="text" class="form-control rounded-pill">
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-group d-flex">
+                                    <label for="" class="col-form-label">Email</label>
+                                    <input type="text" class="form-control rounded-pill">
+                                </div>
+        
+                                <div class="form-group d-flex">
+                                    <label for="" class="col-form-label">Lời nhắn</label>
+                                    <input type="text" class="form-control rounded-pill">
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <a href="#" class="sensi-btn mx-auto">Đặt hàng ngay</a>
+                                <span class="d-block text-center mt-2">* Thông tin bắt buộc</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sensi-footer container-fluid">
+            Công ty TNHH tư vấn và phát triển công nghệ Trung Thành
+        </div>
     </div>
 </body>
 </html>
