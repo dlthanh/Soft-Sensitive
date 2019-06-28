@@ -459,14 +459,6 @@ html, body {
     }
 
     &-slider {
-        &-item {
-            max-width: 950px;
-            position: relative;
-            padding-top: 50px;
-            img {
-                width: 100%;
-            }
-        }
         &-title {
             position: absolute;
             top: 0;
@@ -484,6 +476,19 @@ html, body {
                 font-size: 16px;
                 line-height: 140px;
                 margin-top: -20px;
+            }
+        }
+        &-item {
+            max-width: 950px;
+            position: relative;
+            padding-top: 50px;
+            img {
+                width: 100%;
+            }
+            &:nth-child(2n) {
+                .sensi-slider-title {
+                    background: url('../images/slide-title-2.png') no-repeat center;
+                }
             }
         }
         &-text {
