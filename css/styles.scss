@@ -11,7 +11,7 @@
 }
 html, body {
     font-family: 'RobotoCondensed', sans-serif;
-    @media (max-width: 425px) {
+    @media (max-width: 560px) {
         overflow-x: hidden;
     }
 }
@@ -52,7 +52,7 @@ html, body {
                 &:hover {
                     color: $text;
                 }
-                @media (max-width: 425px) {
+                @media (max-width: 560px) {
                     text-align: center;
                 }
             }
@@ -61,7 +61,7 @@ html, body {
             margin-right: 10px;
             a {
                 padding: 0;
-                @media (max-width: 425px) {
+                @media (max-width: 560px) {
                     padding: 15px;
                     text-align: center;
                 }
@@ -86,7 +86,7 @@ html, body {
                 text-transform: initial;
                 margin-top: 5px;
             }
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 font-size: 36px;
             }
         }
@@ -136,7 +136,7 @@ html, body {
                 font-weight: 700;
                 color: #ff0000;
             }
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 font-size: 16px;
             }
         }
@@ -184,7 +184,7 @@ html, body {
                 display: block;
                 font-family: 'BambusLight', sans-serif;
             }
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 font-size: 30px;
             }
         }
@@ -193,7 +193,7 @@ html, body {
             margin-top: 80px;
             display: flex;
             flex-wrap: wrap;
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 margin-top: 30px;
             }
         }
@@ -212,7 +212,7 @@ html, body {
                 margin-bottom: 0;
                 line-height: 1.1;
             }
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 width: 100%;
                 p {
                     font-size: 18px;
@@ -245,14 +245,14 @@ html, body {
         img:first-child {
             width: 100%;
             margin-left: 30px;
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 width: 150%;
                 margin-left: -50%;
             }
         }
         &-right {
             padding-top: 80px;
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 padding-top: 0;
                 img {
                     width: 100%!important;
@@ -265,7 +265,7 @@ html, body {
             font-size: 46px;
             text-shadow: 0 0 1px rgba($text, .5);
             margin-top: 10px;
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 font-size: 32px;
             }
             span {
@@ -324,7 +324,7 @@ html, body {
             // }
             img {
                 max-width: 100%;
-                @media (max-width: 425px) {
+                @media (max-width: 560px) {
                     margin-bottom: 20px;
                 }
             }
@@ -334,7 +334,7 @@ html, body {
     &-seventhSection {
         background: url('../images/section-7-bg.png') no-repeat center;
         background-size: cover;
-        @media (max-width: 425px) {
+        @media (max-width: 560px) {
             background: url('../images/section-7-bg.png') no-repeat top center;
             background-size: 330%;
         }
@@ -348,7 +348,7 @@ html, body {
         &-title {
             margin-bottom: 90px;
             // margin-top: 40px;
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 width: 200%;
                 margin-left: -50%;
                 & + img {
@@ -361,7 +361,7 @@ html, body {
             position: absolute;
             top: 0;
             left: 0;
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 position: unset;
                 margin-top: -100px;
             }
@@ -373,7 +373,7 @@ html, body {
                 width: 12.5170068%;
                 cursor: pointer;
                 margin: 0 auto;
-                @media (max-width: 425px) {
+                @media (max-width: 560px) {
                     position: unset;
                     width: 50%;
                 }
@@ -388,7 +388,7 @@ html, body {
                     & + .item-text {
                         visibility: visible;
                         opacity: 1;
-                        @media (max-width: 425px) {
+                        @media (max-width: 560px) {
                             max-height: 300px;
                         }
                     }   
@@ -415,7 +415,7 @@ html, body {
                     font-size: 18px;
                     margin-bottom: 10px;
                 }
-                @media (max-width: 425px) {
+                @media (max-width: 560px) {
                     margin: 10px 0;
                     position: unset;
                     transform: none;
@@ -472,7 +472,7 @@ html, body {
             text-shadow: 0 0 1px rgba($text, .5);
             color: #fff;
             text-align: center;
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 font-size: 16px;
                 line-height: 140px;
                 margin-top: -20px;
@@ -499,7 +499,7 @@ html, body {
             bottom: 10px;
             left: 0;
             right: 0;
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 font-size: 16px;
                 bottom: 5px;
             }
@@ -514,7 +514,7 @@ html, body {
                 text-align: center;
                 display: block;
             }
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 right: 15px;
                 .sensi-btn {
                     font-size: 14px;
@@ -530,7 +530,7 @@ html, body {
         .swiper-wrapper {
             // padding: 0 calc((100% - 950px) / 2);
             // margin: 0 auto;
-            @media (max-width: 425px) {
+            @media (max-width: 560px) {
                 padding: 0;
             }
         }
@@ -574,7 +574,7 @@ html, body {
         span {
             color: #dd1313;
         }
-        @media (max-width: 425px) {
+        @media (max-width: 560px) {
             .col-md-9 {
                 background-image: none!important;
                 margin-top: 20px;
@@ -589,8 +589,25 @@ html, body {
         text-align: center;
         font-weight: 300;
         margin-top: 70px;
-        @media (max-width: 425px) {
+        @media (max-width: 560px) {
             font-size: 14px;
+        }
+    }
+
+    &-video {
+        video {
+            max-width: 700px;
+            width: 100%;
+            display: block;
+        }
+        &-description {
+            color: #7d7d7d;
+            text-shadow: 0 0 1px rgba($text, .5);
+            @media (max-width: 560px) {
+                br {
+                    display: none;
+                }
+            }
         }
     }
 }
