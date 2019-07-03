@@ -611,3 +611,14 @@ html, body {
         }
     }
 }
+
+.modal {
+    &-header {
+        text-align: center;
+    }
+    &-body {
+        p {
+            text-align: center;
+        }
+    }
+}
