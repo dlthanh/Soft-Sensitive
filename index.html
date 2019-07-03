@@ -34,16 +34,16 @@
                     <div class="collapse navbar-collapse col-md-8" id="sensiNavigator">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link sensi-link" href="#">Sản phẩm <span class="sr-only">(current)</span></a>
+                                <a class="nav-link sensi-link" href="#" data-id="sanpham">Sản phẩm <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Cẩm nang</a>
+                                <a class="nav-link" href="#" data-id="camnang">Cẩm nang</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Đặt mua</a>
+                                <a class="nav-link" href="#" data-id="datmua">Đặt mua</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Liên hệ</a>
+                                <a class="nav-link" href="#" data-id="lienhe">Liên hệ</a>
                             </li>
                             <li class="nav-item nav-social">
                                 <a class="nav-link" href="https://shopee.vn/trungthanh.eshop">
@@ -99,7 +99,7 @@
             </div>
         </div>
 
-        <div class="sensi-firstSection container-fluid">
+        <div class="sensi-firstSection container-fluid" data-scroll="camnang">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="sensi-firstSection-left col-md-6">
@@ -301,7 +301,7 @@
             </div>
         </div>
 
-        <div class="sensi-sixthSection container-fluid">
+        <div class="sensi-sixthSection container-fluid" data-scroll="sanpham">
             <div class="container">
                 <ul class="sensi-sixthSection-list row text-center align-items-center">
                     <li class="sensi-sixthSection-item col-md-4">
@@ -423,7 +423,7 @@
             </div>
         </div>
 
-        <div class="sensi-slider container-fluid swiper-container">
+        <div class="sensi-slider container-fluid swiper-container" data-scroll="datmua">
             <div class="swiper-wrapper">
                 <div class="swiper-slide sensi-slider-item">
                     <img src="images/slide-1.jpg" alt="">
@@ -470,7 +470,7 @@
                     </div>
                 </div>
 
-                <div class="sensi-contact row">
+                <div class="sensi-contact row" data-scroll="lienhe">
                     <div class="col-md-3">
                         <img src="images/contact.png" alt="" style="width: 100%">
                     </div>

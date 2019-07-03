@@ -39,4 +39,16 @@ $(document).ready(function() {
             $('header').removeClass('fixed'); 
         }
     })
+
+    $('.nav-link').click(function () {
+        $('.nav-link').parent().removeClass('active');
+        $(this).parent().addClass('active');
+
+        var data = $(this).attr('data-id'),
+            offset = $('div[data-scroll="'+data+'"]').offset().top;
+
+        $('html, body').animate({
+            scrollTop: offset - 100
+        }, 600)
+    })
 })
