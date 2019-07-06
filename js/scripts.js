@@ -55,8 +55,7 @@ $(document).ready(function() {
     if($(window).width() > 560) {
         $('.sensi-seventhSection-main .item').hover(function() {
             $('.sensi-seventhSection-main .item-text').removeClass('show');
-        }, function() {
-            $('.sensi-seventhSection-main .item-text').eq(0).addClass('show');
+            $(this).next().addClass('show');
         })
     } else {
         $('.sensi-seventhSection-main .item').click(function() {
