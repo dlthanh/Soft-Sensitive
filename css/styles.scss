@@ -397,16 +397,16 @@ html, body {
                 img {
                     width: 100%;
                 }
-                &:hover,
-                &:focus {
-                    & + .item-text {
-                        visibility: visible;
-                        opacity: 1;
-                        @media (max-width: 560px) {
-                            max-height: 300px;
-                        }
-                    }   
-                }
+                // &:hover,
+                // &:focus {
+                //     & + .item-text {
+                //         visibility: visible;
+                //         opacity: 1;
+                //         @media (max-width: 560px) {
+                //             max-height: 300px;
+                //         }
+                //     }   
+                // }
             }
             .item-text {
                 position: absolute;
@@ -423,6 +423,13 @@ html, body {
                 -moz-transition: visibility 0s, opacity 0.6s;
                 -o-transition: visibility 0s, opacity 0.6s;
                 -webkit-transition: visibility 0s, opacity 0.6s;
+                &.show {
+                    visibility: visible;
+                    opacity: 1;
+                    @media (max-width: 560px) {
+                        max-height: 300px;
+                    }
+                }
                 span {
                     font-weight: 700;
                     display: block;

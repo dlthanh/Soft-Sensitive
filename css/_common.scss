@@ -52,6 +52,7 @@
 }
 
 .phone {
+    display: block;
     background-color: rgba(#fff200, .2);
     width: 164px;
     height: 164px;
@@ -100,14 +101,35 @@
     }
     span {
         display: none;
+        line-height: 160px;
+        position: relative;
+        z-index: 1003;
+        text-align: center;
+        color: #333;
+        font-weight: 700;
     }
-    @media (max-width: 425px) {
-        transform: scale(.5);
-        -moz-transform: scale(.5);
-        -ms-transform: scale(.5);
-        -o-transform: scale(.5);
-        -webkit-transform: scale(.5);
-        bottom: 0;
-        right: 0;
+    @media (min-width: 1024px) {
+        &:hover {
+            text-decoration: none;
+            animation: none;
+            img {
+                display: none;
+            }
+            span {
+                display: block;
+            }
+        }
+    }
+    @media (max-width: 560px) {
+        width: 80px;
+        height: 80px;
+        &:before {
+            width: 60px;
+            height: 60px;
+        }
+        &:after {
+            width: 50px;
+            height: 50px;
+        }
     }
 }

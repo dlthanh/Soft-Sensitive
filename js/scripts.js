@@ -51,4 +51,17 @@ $(document).ready(function() {
             scrollTop: offset - 100
         }, 600)
     })
+
+    if($(window).width() > 560) {
+        $('.sensi-seventhSection-main .item').hover(function() {
+            $('.sensi-seventhSection-main .item-text').removeClass('show');
+        }, function() {
+            $('.sensi-seventhSection-main .item-text').eq(0).addClass('show');
+        })
+    } else {
+        $('.sensi-seventhSection-main .item').click(function() {
+            $('.sensi-seventhSection-main .item-text').removeClass('show');
+            $(this).next().addClass('show');
+        })
+    }
 })
