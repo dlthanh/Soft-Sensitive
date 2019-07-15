@@ -38,6 +38,10 @@ $(document).ready(function() {
         } else {
             $('header').removeClass('fixed'); 
         }
+
+        if(scrollTop >= $('video').offset().top - 300) {
+            $('video')[0].play();
+        }
     })
 
     $('.nav-link').click(function () {
@@ -56,6 +60,8 @@ $(document).ready(function() {
         $('.sensi-seventhSection-main .item').hover(function() {
             $('.sensi-seventhSection-main .item-text').removeClass('show');
             $(this).next().addClass('show');
+        }, function() {
+            $(this).next().removeClass('show');
         })
     } else {
         $('.sensi-seventhSection-main .item').click(function() {
@@ -63,4 +69,8 @@ $(document).ready(function() {
             $(this).next().addClass('show');
         })
     }
+
+    $('.sensi-guide .sensi-btn, .btn-primary').click(function() {
+        alert('Gửi thông tin thành công.\nChúng tôi sẽ liên hệ với bạn sớm nhất.');
+    })
 })
