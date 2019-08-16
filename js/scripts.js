@@ -69,8 +69,28 @@ $(document).ready(function() {
             $(this).next().addClass('show');
         })
     }
-
-    $('.sensi-guide .sensi-btn, .btn-primary').click(function() {
-        alert('Gửi thông tin thành công.\nChúng tôi sẽ liên hệ với bạn sớm nhất.');
-    })
+	
+	var url = 'https://docs.google.com/forms/u/1/d/e/1FAIpQLScWpGTj67LQ9bX-fpBI9d3XvcR6hWDoAAFclyxexgTph9CoQA/formResponse';
+    url = btoa(url);
+    $('.sensi-guide .sensi-btn, .btn-primary').click(function(e) {
+        e.preventDefault();
+        var name = $(this).parents('[data-contact]').find('#name').val(),
+            phone = $(this).parents('[data-contact]').find('#phone').val(),
+            email = $(this).parents('[data-contact]').find('#email').val();
+            message = $(this).parents('[data-contact]').find('#message').val();
+        $.ajax({
+            url: atob(url),
+            type: 'POST',
+            dataType: "xml",
+            data: {
+                'entry.703132407': name,
+                'entry.1887691035': phone,
+                'entry.266763285': email,
+				'entry.1388027430': message
+            }
+        });
+        setTimeout(function() {
+            alert('Gửi thông tin thành công.\nChúng tôi sẽ liên hệ với bạn sớm nhất.');
+        }, 1000)
+    });
 })

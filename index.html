@@ -405,7 +405,7 @@
 
         <div class="sensi-video container-fluid mb-5">
             <div class="container">
-                <video src="https://dlthanh.github.io/VietNam1979-Web/images/cover.mp4" controls class="mx-auto mt-4 mb-5"></video>
+                <video src="video/video.mp4" controls class="mx-auto mt-4 mb-5"></video>
 
                 <a href="#" class="sensi-btn mx-auto mb-4" data-toggle="modal" data-target="#exampleModal">Tôi muốn được tư vấn</a>
 
@@ -450,7 +450,7 @@
             <div class="swiper-button-next"></div>
         </div>
 
-        <div class="sensi-guide container-fluid">
+        <div class="sensi-guide container-fluid" data-contact>
             <div class="container">
                 <h2 class="sensi-guide-title text-center">Hướng dẫn sử dụng</h2>
 
@@ -470,24 +470,24 @@
                             <div class="col-md-5">
                                 <div class="form-group d-flex">
                                     <label for="" class="col-form-label"><span>*</span> Tên của nàng là</label>
-                                    <input type="text" class="form-control rounded-pill w60">
+                                    <input type="text" id="name" class="form-control rounded-pill w60">
                                 </div>
         
                                 <div class="form-group d-flex">
                                     <label for="" class="col-form-label"><span>*</span> Số điện thoại</label>
-                                    <input type="text" class="form-control rounded-pill">
+                                    <input type="text" id="phone" class="form-control rounded-pill">
                                 </div>
                             </div>
 
                             <div class="col-md-4">
                                 <div class="form-group d-flex">
                                     <label for="" class="col-form-label">Email</label>
-                                    <input type="text" class="form-control rounded-pill">
+                                    <input type="text" id="email" class="form-control rounded-pill">
                                 </div>
         
                                 <div class="form-group d-flex">
                                     <label for="" class="col-form-label">Lời nhắn</label>
-                                    <input type="text" class="form-control rounded-pill">
+                                    <input type="text" id="message" class="form-control rounded-pill">
                                 </div>
                             </div>
 
@@ -501,7 +501,7 @@
             </div>
         </div>
 
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-contact>
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                 <div class="modal-header">
@@ -514,19 +514,19 @@
                     <p>Chúng tôi sẽ gọi lại ngay sau ít phút. <br /> Xin cảm ơn.</p>
 
                     <div class="form-group mt-4">
-                        <input type="text" class="form-control" placeholder="Họ và tên">
+                        <input type="text" id="name" class="form-control" placeholder="Họ và tên">
                     </div>
 
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Nhập email">
+                        <input type="email" id="email" class="form-control" placeholder="Nhập email">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nhập số điện thoại">
+                        <input type="text" id="phone" class="form-control" placeholder="Nhập số điện thoại">
                     </div>
 
                     <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Để lại lời nhắn cho chúng tôi" rows="5"></textarea>
+                        <textarea id="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Để lại lời nhắn cho chúng tôi" rows="5"></textarea>
                     </div>
                 </div>
                 <div class="modal-footer">
