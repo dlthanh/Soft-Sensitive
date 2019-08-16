@@ -42,6 +42,10 @@ $(document).ready(function() {
         if(scrollTop >= $('video').offset().top - 300) {
             $('video')[0].play();
         }
+		
+		if(scrollTop >= $('video').offset().top + $('video').height()) {
+            $('video')[0].pause();
+        }
     })
 
     $('.nav-link').click(function () {
